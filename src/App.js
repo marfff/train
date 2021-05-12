@@ -1,11 +1,9 @@
 import './App.css';
 import Convertor from './Convertor';
-import Map1 from './Map1';
-
+import Map from './Map';
 import { BrowserRouter } from 'react-router-dom';
 import store from './store';
 import { Provider } from 'react-redux';
-
 
 function App() {
   return (
@@ -13,7 +11,7 @@ function App() {
       <Provider store={store}>
         <div className='App'>
           <Convertor />
-          <Map1 />
+          <Map />
         </div>
       </Provider>
     </BrowserRouter>
@@ -21,7 +19,3 @@ function App() {
 }
 
 export default App;
-
-
-// import GoogleApiWrapper from './Map';
-// import GoogleMap from './GoogleMap';

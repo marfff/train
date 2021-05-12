@@ -4,25 +4,37 @@
   display: flex;
   /* text-align: center; */
   flex-direction: column;
-  background-color:#EEFFFF;
+  background-color: #eeffff;
 }
+
 .entrybox input {
- 
+  position: relative;
+  top: 24px;
   font-family: roboto;
   font-size: 16px;
+}
 
+.entrybox input:hover {
+  position: relative;
+  top: 24px;
+  color: #442222;
+  font-family: roboto;
+  font-size: 17px;
+  transistion: 1s;
 }
 
 .mapstyle {
   display: flex;
+  position: relative;
   align-items: center;
+  /* background-color:rgba(0,212,255,1); */
   justify-content: center;
   /* margin-left: 12px; */
   /* margin-right: 12px; */
   width: 90%vw;
-  height: 430px;
+  height: 72vh;
   border-width: 4px;
-  background:#EEFFFF;
+  background: #eeffff;
 }
 
 .stationentry {
@@ -30,37 +42,64 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  background:#F6F6F8;
+  padding-bottom: 20px;
+  background: #f6f6f8;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(28, 9, 121, 0) 9%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .trainimage {
   display: flex;
-  width: 60px;
-  height: 60px;
+  position: relative;
+  top: 31px;
+  width: 70px;
+  height: 70px;
   margin: 20px;
   border-radius: 50%;
   border-width: 2px;
-  border-color:#0099ff;
+  border-color: #1277aa;
   border-style: solid;
 }
 
 .titles {
-  display:flex;
+  display: flex;
   font-size: 12px;
   flex-direction: column;
   align-items: center;
   line-height: 1em;
-  margin:20px;
+  margin: 20px;
 }
 
 .timetable {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   width: 300px;
   font-family: roboto;
   font-size: 14px;
+  top: 19px;
   /* height:100px;
-  
+  /* display:table-cell; */
+}
+
+.timetable:hover {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  font-family: roboto;
+  font-size: 15px;
+  top: 19px;
+  color: black;
+  transition: 0.5s;
+  /* height:100px;
   /* display:table-cell; */
 }

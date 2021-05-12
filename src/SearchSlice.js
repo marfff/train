@@ -14,5 +14,4 @@ export const searchSlice = createSlice({
 });
 
 export const { tipcoding }  = searchSlice.actions;
-
 export default searchSlice.reducer;
