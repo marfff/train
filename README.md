@@ -7,6 +7,10 @@ Displays stations in vicinity of entered station on Google Map.
 
 View Live STAFF timetable by platform giving current location of incoming trains.
 
+React js, Browser Router, Firebase React-Redux, 2000 UK station lookup station name return tiploc code for timetable identification
+
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
