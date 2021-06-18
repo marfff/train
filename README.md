@@ -7,14 +7,6 @@ Displays stations in vicinity of entered station on Google Map.
 
 View Live STAFF timetable by platform giving current location of incoming trains.
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
